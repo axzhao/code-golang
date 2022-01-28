@@ -1,0 +1,1 @@
+docker run --env-file GeoIP.conf -v /tmp:/usr/share/GeoIP maxmindinc/geoipupdate
