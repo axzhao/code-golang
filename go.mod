@@ -4,6 +4,8 @@ go 1.17
 
 require (
 	github.com/caarlos0/env v3.5.0+incompatible
+	github.com/cenkalti/backoff/v4 v4.1.2
+	github.com/deckarep/golang-set v1.8.0
 	github.com/gin-gonic/gin v1.7.7
 	github.com/oschwald/geoip2-golang v1.6.1
 	go.uber.org/zap v1.20.0

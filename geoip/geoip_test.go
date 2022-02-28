@@ -32,7 +32,7 @@ func ExampleIP() {
 	}
 	defer db.Close()
 	// If you are using strings that may be invalid, check that ip is not nil
-	ip := net.ParseIP("204.124.181.231")
+	ip := net.ParseIP("34.92.133.165")
 	record, err := db.City(ip)
 	if err != nil {
 		log.Fatal(err)
