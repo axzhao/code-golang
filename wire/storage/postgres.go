@@ -20,6 +20,6 @@ func NewPostgresDB(cfg *config.Config) *PostgresStorage {
 func (p *PostgresStorage) GetUserByID(ctx context.Context, id int64) (*User, error) {
 	return &User{
 		ID:   1,
-		Name: "storage",
+		Name: "model",
 	}, nil
 }

@@ -17,6 +17,6 @@ func NewMockDB(cfg *config.Config) *MockDB {
 func (p *MockDB) GetUserByID(ctx context.Context, id int64) (*User, error) {
 	return &User{
 		ID:   1,
-		Name: "mock",
+		Name: "suite",
 	}, nil
 }
